@@ -241,10 +241,10 @@ img, svg{
 }
 
 /* SECTIONS */
-#section05 .d-flex{
+#section1 .d-flex{
     padding: 50px 30px;
 }
-#section05 .d-flex > div{
+#section1 .d-flex > div{
     width:33.3%;
 }
 .big{
@@ -272,33 +272,33 @@ img, svg{
     bottom: -10px;
 }
 
-#section5{
+#section6{
     background: var(--data-terra);
 }
-#section5 .d-flex{
+#section6 .d-flex{
     max-width: 700px;
 }
-#section5 .d-flex:last-child{
+#section6 .d-flex:last-child{
     max-width: 520px;
     margin-top: 50px;
 }
-#section5 li{
+#section6 li{
     width: 100px;
 }
 
-#section1 .btn:after{
+#section2 .btn:after{
     background: var(--aeris);
 }
-#section2 .btn:after{
+#section3 .btn:after{
     background: var(--formater);
 }
-#section3 .btn:after{
+#section4 .btn:after{
     background: var(--odatis);
 }
-#section4 .btn:after{
+#section5 .btn:after{
     background: var(--theia);
 }
-#section2 #icn-
+#section3 #icn-
 .svg-container{
     position: relative;
     z-index: 2;
@@ -344,12 +344,12 @@ img, svg{
 /* Backgrounds will cover all the section
 * --------------------------------------- */
 #section0,
-#section1,
 #section2,
 #section3,
 #section4,
 #section5,
-#section05{
+#section6,
+#section1{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -370,47 +370,47 @@ img, svg{
     background: #000;
     opacity: 0.5;
 }
-#section05 {
+#section1 {
     background-image: url("../img/background-chiffres.png");
     background-size: contain;
 
 }
-#section05:before{
+#section1:before{
     background: var(--data-terra);
 }
-#section1 {
+#section2 {
     background-image: url("../img/webdesign_V1_aeris-background.jpg");
 }
-#section1:before{
+#section2:before{
     background: var(--aeris);
 }
-#section2 {
+#section3 {
     background-image: url("../img/webdesign_V1_formater-background.jpg");
 }
-#section2:before{
+#section3:before{
     background: var(--formater);
 }
 
-#section3 {
+#section4 {
     background-image: url("../img/webdesign_V1_odatis-background.jpg");
 }
-#section3:before{
+#section4:before{
     background: var(--odatis);
 }
-#section4 {
+#section5 {
     background-image: url("../img/webdesign_V1_theia-background.jpg");
 }
-#section4:before{
+#section5:before{
     background: var(--theia);
     opacity: 0.4;
 }
-#section4:after{
+#section5:after{
     background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));    
 }
-#section5 {
-    background-image: url("../img/background-partenaires.jpg");
+#section6 {
+    /* background-image: url("../img/background-partenaires.jpg"); */
 }
-#section5:before{
+#section6:before{
     background: var(--data-terra);
 }
 /* Bottom menu
@@ -524,7 +524,7 @@ img, svg{
     .section .d-flex{
         justify-content: flex-start;
     }
-    #section5 .d-flex{
+    #section6 .d-flex{
         justify-content: space-between;
     }
     .hidden-lg.burger{
@@ -563,7 +563,7 @@ img, svg{
     .section:nth-child(odd) .d-flex{
         flex-direction: column-reverse;
     }
-    .section .d-flex, #section0 .d-flex, #section05 .d-flex{
+    .section .d-flex, #section0 .d-flex, #section1 .d-flex{
         flex-direction: column;
         justify-content: center;
     }
@@ -578,14 +578,14 @@ img, svg{
     img, svg{
         height: auto;
     }
-    #section05 .d-flex > div {
+    #section1 .d-flex > div {
         width: 100%;
         margin-bottom: 50px;
     }
-    #section05 .d-flex > div:last-child {
+    #section1 .d-flex > div:last-child {
         margin-bottom: 0;
     }
-    #section5 .d-flex{
+    #section6 .d-flex{
         flex-direction: row;
     }
 }
@@ -624,13 +624,13 @@ img, svg{
     .big{
         font-size: 3rem;
     }
-    #section5 li{
+    #section6 li{
         width: 70px;
     }
-    #section5 .d-flex{
+    #section6 .d-flex{
         max-width: 550px;
     }
-    #section5 .d-flex:last-child{
+    #section6 .d-flex:last-child{
         max-width: 350px;
     }
 }
