@@ -56,23 +56,7 @@ include('header.php');
         </div>
 
         <div class="section" id="section3">
-            <div class="d-flex">
-                <div class="text">
-                    <h2>Terre<br>Solide</h2>
-                    <h3>Pôle Formater</h3>
-                    <p>Le pôle Terre solide a pour objectif de faciliter l’accès aux données et contribuer à la création de nouveaux produits et services en apportant de la valeur ajoutée aux données spatiales et « in-situ » disponibles. Il s’inscrit dans les paysages national et européen en articulation étroite avec les infrastructures en place et en construction.<br>
-                        Pour cela, le pôle Terre solide, a pour mission de fédérer les centres existants au service de la communauté Terre Solide.</p>
-                    <a href="https://www.poleterresolide.fr/" target="_blank" class="btn">En savoir plus</a>
-                </div>
-                <div class="svg-container">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="680px" viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
-                        <use xlink:href="#formater"></use>
-                    </svg>
-                </div>
-            </div>
-        </div>
 
-        <div class="section" id="section4">
             <div class="d-flex">
                 <div class="svg-container">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="680px" viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
@@ -92,7 +76,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section5">
+        <div class="section" id="section4">
             <div class="d-flex">
                 <div class="text">
                     <h2>Surface<br>Continentale</h2>
@@ -104,6 +88,23 @@ include('header.php');
                 <div class="svg-container">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="680px" viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
                         <use xlink:href="#theia"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="section" id="section5">
+            <div class="d-flex">
+                <div class="text">
+                    <h2>Terre<br>Solide</h2>
+                    <h3>Pôle Formater</h3>
+                    <p>Le pôle Terre solide a pour objectif de faciliter l’accès aux données et contribuer à la création de nouveaux produits et services en apportant de la valeur ajoutée aux données spatiales et « in-situ » disponibles. Il s’inscrit dans les paysages national et européen en articulation étroite avec les infrastructures en place et en construction.<br>
+                        Pour cela, le pôle Terre solide, a pour mission de fédérer les centres existants au service de la communauté Terre Solide.</p>
+                    <a href="https://www.poleterresolide.fr/" target="_blank" class="btn">En savoir plus</a>
+                </div>
+                <div class="svg-container">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="680px" viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
+                        <use xlink:href="#formater"></use>
                     </svg>
                 </div>
             </div>
@@ -133,7 +134,7 @@ include('asset/svg/dataterra.svg');
     <script type="text/javascript">
         var myFullpage = new fullpage('#fullpage', {
             // verticalCentered: false,
-            anchors: ['firstSectionAnchor', 'chiffresAnchor', 'aerisAnchor', 'formaterAnchor', 'odatisAnchor', 'theiaAnchor', 'partenairesAnchor'],
+            anchors: ['firstSectionAnchor', 'chiffresAnchor', 'aerisAnchor', 'odatisAnchor', 'theiaAnchor', 'formaterAnchor', 'partenairesAnchor'],
             menu: '#menu',
             lazyLoad: true,
             //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208

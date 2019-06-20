@@ -1,6 +1,6 @@
 /**
 * DATA-TERRA
-* version : 0.2.1
+* version : 0.2.2
 * Author: Centre de données et de services SEDOO/OMP : Raphael Vallauri - Pierre Vert 
 * Author URI: http://www.sedoo.fr
 */
@@ -389,27 +389,28 @@ img, svg{
 #section2:before{
     background: var(--aeris);
 }
-#section3 {
-    background-image: url("../img/webdesign_V1_formater-background.jpg");
-}
-#section3:before{
-    background: var(--formater);
-}
 
-#section4 {
+#section3 {
     background-image: url("../img/webdesign_V1_odatis-background.jpg");
 }
-#section4:before{
+#section3:before{
     background: var(--odatis);
 }
-#section5 {
+#section4 {
     background-image: url("../img/webdesign_V1_theia-background.jpg");
 }
-#section5:before{
+#section4:before{
     background: var(--theia);
     opacity: 0.4;
 }
-#section5:after{
+#section5 {
+    background-image: url("../img/webdesign_V1_formater-background.jpg");
+}
+#section5:before{
+    background: var(--formater);
+}
+
+#section4:after{
     background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));    
 }
 #section6 {
