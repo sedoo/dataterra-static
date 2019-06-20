@@ -1,3 +1,10 @@
+/**
+* DATA-TERRA
+* version : 0.2.1
+* Author: Centre de données et de services SEDOO/OMP : Raphael Vallauri - Pierre Vert 
+* Author URI: http://www.sedoo.fr
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -372,8 +379,6 @@ img, svg{
 }
 #section1 {
     background-image: url("../img/background-chiffres.png");
-    background-size: contain;
-
 }
 #section1:before{
     background: var(--data-terra);
