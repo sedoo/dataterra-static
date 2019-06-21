@@ -24,16 +24,20 @@ include('header.php');
             <h3 class="text-center">En chiffres</h3>
             <div class="d-flex">
                 <div class="chiffre text-center">
-                    <p class="big">7 000 to</p>
-                    <p class="text-center">de données stockées en 2017</p>
-                </div>
-                <div class="chiffre text-center">
-                    <p class="big">50 000 to</p>
-                    <p class="text-center">d'ici à 5 ans</p>
+                    <p class="big">4</p>
+                    <p class="text-center">Pôles de données et de services</p>
                 </div>
                 <div class="chiffre text-center">
                     <p class="big">153,2</p>
                     <p class="text-center">Équivalent temps plein travaillé</p>
+                </div>
+                <div class="chiffre text-center">
+                    <p class="big">7 000 To</p>
+                    <p class="text-center">de données stockées en 2017</p>
+                </div>
+                <div class="chiffre text-center">
+                    <p class="big">50 000 To</p>
+                    <p class="text-center">d'ici à 5 ans</p>
                 </div>
             </div>
         </div>
@@ -115,13 +119,13 @@ include('header.php');
             <ul class="d-flex">
                 <li><a href="https://cnes.fr/fr" target="_blank"><img src="asset/img/logo-01.svg" alt="logo CNES"/></a></li> 
                 <li><a href="http://www.cnrs.fr/fr/page-daccueil" target="_blank"><img src="asset/img/logo-02.svg" alt="logo CNRS"/></a></li> 
-                <li><a href="" target="_blank"><img src="asset/img/logo-03.svg" alt="logo Ifremer"/></a></li> 
-                <li><a href="" target="_blank"><img src="asset/img/logo-04.svg" alt="logo IGN"/></a></li>
+                <li><a href="https://wwz.ifremer.fr/" target="_blank"><img src="asset/img/logo-03.svg" alt="logo Ifremer"/></a></li> 
+                <li><a href="http://www.ign.fr/" target="_blank"><img src="asset/img/logo-04.svg" alt="logo IGN"/></a></li>
             </ul>
             <ul class="d-flex">
-                <li><a href="" target="_blank"><img src="asset/img/logos-05.png" alt="logo IRD"/></a></li> 
-                <li><a href="" target="_blank"><img src="asset/img/logos-06.png" alt="logo IRSTEA"/></a></li> 
-                <li><a href="" target="_blank"><img src="asset/img/logos-07.png" alt="logo MétéoFrance"/></a></li> 
+                <li><a href="https://www.ird.fr/" target="_blank"><img src="asset/img/logos-05.png" alt="logo IRD"/></a></li> 
+                <li><a href="https://www.irstea.fr/" target="_blank"><img src="asset/img/logos-06.png" alt="logo IRSTEA"/></a></li> 
+                <li><a href="https://www.meteofrance.fr/" target="_blank"><img src="asset/img/logos-07.png" alt="logo MétéoFrance"/></a></li> 
             </ul>
         </div>
     </div>
@@ -138,36 +142,36 @@ include('asset/svg/dataterra.svg');
             menu: '#menu',
             lazyLoad: true,
             //to avoid problems with css3 transforms and fixed elements in Chrome, as detailed here: https://github.com/alvarotrigo/fullPage.js/issues/208
-            // css3: false,
-//            navigation: true,
+            css3: false,
+           navigation: true,
 //            slidesNavigation: true,
         });
     </script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-      //   $(document).ready(function() {
-//                $('.js-scrollTo').on('click', function() { // Au clic sur un élément
-//                var page = $(this).attr('href'); // Page cible
-//                var speed = 750; // Durée de l'animation (en ms)
-//                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
-//                return false;
-//            });
+        $(document).ready(function() {
+               $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+               var page = $(this).attr('href'); // Page cible
+               var speed = 750; // Durée de l'animation (en ms)
+               $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+               return false;
+           });
             
-      //       $(".burger").click(function () {
-      //           $(".navbar ul").toggleClass("active");
-      //           $(".burger").toggleClass("active");
+            $(".burger").click(function () {
+                $(".navbar ul").toggleClass("active");
+                $(".burger").toggleClass("active");
 
-      //           var delay = 0;
-      //           $('.navbar ul li').each(function () {
-      //               var $li = $(this);
+                var delay = 0;
+                $('.navbar ul li').each(function () {
+                    var $li = $(this);
 
-      //               setTimeout(function () {
-      //                   $li.toggleClass('transition-open');
-      //               }, delay += 100); // delay 100 ms
-      //           });
+                    setTimeout(function () {
+                        $li.toggleClass('transition-open');
+                    }, delay += 100); // delay 100 ms
+                });
 
-      //       });
-      //   });
+            });
+        });
     </script>
 </body>
 
