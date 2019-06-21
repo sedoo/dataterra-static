@@ -5,6 +5,24 @@
 * Author URI: http://www.sedoo.fr
 */
 
+:root {
+    --data-terra: #1e1f4f;
+    --data-terra-rgb: rgb(30,31,79);
+    --data-terra-rgba: rgba(30,31,79,.8);
+    --aeris: #4bb6e8;
+    --aeris-rgb:rgb(75,182,232);
+    --aeris-rgba:rgba(75,182,232,.8);
+    --odatis: #07629C;
+    --odatis-rgb:rgb(7,98,156);
+    --odatis-rgba:rgba(7,98,156,.8);
+    --theia: #ef4a12;
+    --theia-rgb:rgb(239,74,18);
+    --theia-rgba:rgba(239,74,18,.8);
+    --formater: #fec100;
+    --formater-rgb:rgb(254,193,0);
+    --formater-rgba:rgba(254,193,0,.8);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,15 +65,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-
-:root {
-    --data-terra: #1f1e61;
-    --aeris: #31aad2;
-    --odatis: #3369cd;
-    --theia: #f1540f;
-    --formater: #fec100;
 }
 
 /* FONT */
@@ -177,7 +186,7 @@ h2 br{
 }
 .burger{
     display: block;
-    margin-left: auto.section ;
+    margin-left: auto ;
     cursor: pointer;
     z-index: 300;
 }
@@ -320,7 +329,7 @@ img, svg{
     position: relative;
     z-index: 1;
 }
-.section:before{
+/* .section:before{
     position: absolute;
     top: 0;
     left: 0;
@@ -337,11 +346,9 @@ img, svg{
     width: 100%;
     height: 100%;
     z-index: -1;
-}
-.section:after{
     left: 0;
     background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7));
-}
+} */
 /*
 .section:nth-child(odd):after{
     right: 0;
@@ -350,75 +357,56 @@ img, svg{
 */
 /* Backgrounds will cover all the section
 * --------------------------------------- */
-#section0,
-#section2,
-#section3,
-#section4,
-#section5,
-#section6,
-#section1{
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
+[data-section]{
+    background-size: 100% 100%, 100% 100%, cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left;
+    background-clip:border-box;
+    background-blend-mode: color, normal;
 }
 .hidden-lg{
     display: none;
 }
 /* Defining each sectino background and styles
 * --------------------------------------- */
-#section0 {
-    background-image: url("../img/background-dt-iss.jpg");
-}
-#section0:before{
-    background: var(--data-terra);
-}
-#section0:after{
-    background: #000;
-    opacity: 0.5;
-}
-#section1 {
-    background-image: url("../img/background-chiffres.png");
-}
-#section1:before{
-    background: var(--data-terra);
-}
-#section2 {
-    background-image: url("../img/webdesign_V1_aeris-background.jpg");
-}
-#section2:before{
-    background: var(--aeris);
+[data-section="apropos"] {
+    background: linear-gradient(var(--data-terra-rgb), var(--data-terra-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/background-dt-iss.jpg);
 }
 
-#section3 {
-    background-image: url("../img/webdesign_V1_odatis-background.jpg");
-}
-#section3:before{
-    background: var(--odatis);
-}
-#section4 {
-    background-image: url("../img/webdesign_V1_theia-background.jpg");
-}
-#section4:before{
-    background: var(--theia);
-    opacity: 0.4;
-}
-#section5 {
-    background-image: url("../img/webdesign_V1_formater-background.jpg");
-}
-#section5:before{
-    background: var(--formater);
+[data-section="chiffres"] {
+    background: linear-gradient(var(--data-terra-rgb), var(--data-terra-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/background-chiffres.png);
 }
 
-#section4:after{
-    background: radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.8));    
+[data-section="aeris"] {
+    background: linear-gradient(var(--aeris-rgb), var(--aeris-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/webdesign_V1_aeris-background.jpg) no-repeat 100% 100% ;
 }
-#section6 {
-    /* background-image: url("../img/background-partenaires.jpg"); */
+
+
+[data-section="odatis"] {
+    background: linear-gradient(var(--odatis-rgb), var(--odatis-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/webdesign_V1_odatis-background.jpg);
 }
-#section6:before{
-    background: var(--data-terra);
+
+[data-section="theia"] {
+    background: linear-gradient(var(--theia-rgb), var(--theia-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/webdesign_V1_theia-background.jpg);
 }
+
+[data-section="formater"] {
+    background: linear-gradient(var(--formater-rgb), var(--formater-rgb)),
+                radial-gradient(rgba(0,0,0,0), rgba(0,0,0,0.7)),
+                url(../img/webdesign_V1_formater-background.jpg);
+}
+
 /* Bottom menu
 * --------------------------------------- */
 #infoMenu li a {

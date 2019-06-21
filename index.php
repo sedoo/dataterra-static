@@ -7,7 +7,7 @@ include('header.php');
       include('menu.php');
       ?>
     <div id="fullpage">
-        <div class="section active" id="section0">
+        <div class="section active" id="section0" data-section="apropos">
             <div class="d-flex">
                 <div>
                     <img src="asset/img/logo-dt.png" alt="logo Data Terra">
@@ -19,7 +19,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section1">
+        <div class="section" id="section1" data-section="chiffres">
             <h2 class="text-center">Data Terra</h2>
             <h3 class="text-center">En chiffres</h3>
             <div class="d-flex">
@@ -38,7 +38,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section2">
+        <div class="section" id="section2" data-section="aeris">
             <div class="d-flex">
                 <div class="svg-container">
                     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="680px" height="680px" viewBox="0 0 680 680" style="enable-background:new 0 0 680 680;" xml:space="preserve">
@@ -55,7 +55,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section3">
+        <div class="section" id="section3" data-section="odatis">
 
             <div class="d-flex">
                 <div class="svg-container">
@@ -76,7 +76,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section4">
+        <div class="section" id="section4" data-section="theia">
             <div class="d-flex">
                 <div class="text">
                     <h2>Surface<br>Continentale</h2>
@@ -93,7 +93,7 @@ include('header.php');
             </div>
         </div>
 
-        <div class="section" id="section5">
+        <div class="section" id="section5" data-section="formater">
             <div class="d-flex">
                 <div class="text">
                     <h2>Terre<br>Solide</h2>
