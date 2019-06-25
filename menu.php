@@ -9,13 +9,13 @@
             <span></span>
         </div>
         <ul id="menu">
-            <li data-menuanchor="firstSectionAnchor"><a href="#firstSectionAnchor">A propos</a></li>
-            <li data-menuanchor="chiffresAnchor"><a href="#chiffresAnchor">En Chiffres</a></li>
-            <li data-menuanchor="aerisAnchor"><a href="#aerisAnchor">Atmosphère</a></li>
-            <li data-menuanchor="odatisAnchor"><a href="#odatisAnchor">Océanographie</a></li>
-            <li data-menuanchor="theiaAnchor"><a href="#theiaAnchor">Surface continentale</a></li>
-            <li data-menuanchor="formaterAnchor"><a href="#formaterAnchor">Terre solide</a></li>
-            <li data-menuanchor="partenairesAnchor"><a href="#partenairesAnchor">Partenaires</a></li>
+            <li data-menuanchor="firstSectionAnchor"><a href="#firstSectionAnchor"><?php if ($locale == "en") {?>About<?php } else { ?>A propos<?php } ?></a></li>
+            <li data-menuanchor="chiffresAnchor"><a href="#chiffresAnchor"><?php if ($locale == "en") {?>Key figures<?php } else { ?>En Chiffres<?php } ?></a></li>
+            <li data-menuanchor="aerisAnchor"><a href="#aerisAnchor"><?php if ($locale == "en") {?>Atmosphere<?php } else { ?>Atmosphère<?php } ?></a></li>
+            <li data-menuanchor="odatisAnchor"><a href="#odatisAnchor"><?php if ($locale == "en") {?>Oceanography<?php } else { ?>Océanographie<?php } ?></a></li>
+            <li data-menuanchor="theiaAnchor"><a href="#theiaAnchor"><?php if ($locale == "en") {?>Land surfaces<?php } else { ?>Surfaces continentales<?php } ?></a></li>
+            <li data-menuanchor="formaterAnchor"><a href="#formaterAnchor"><?php if ($locale == "en") {?>Solid Earth<?php } else { ?>Terre solide<?php } ?></a></li>
+            <li data-menuanchor="partenairesAnchor"><a href="#partenairesAnchor"><?php if ($locale == "en") {?>Partners<?php } else { ?>Partenaires<?php } ?></a></li>
         </ul>
     </div>
 </nav>
