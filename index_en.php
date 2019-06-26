@@ -4,7 +4,7 @@
                 <div>
                     <img src="asset/img/logo-dt.png" alt="logo Data Terra">
                 </div>
-                <div>
+                <div class="text">
                     <h1>Research <span class="h2">Infrastructure</span></h1>
                     <p>Observe, understand and predict in an integrated way the history, the functioning and the evolution of the Earth system under the effect of global changes is a fundamental research issue and a necessity for many environmental and socio-economic applications in connection with the implementation of the sustainable development goals. This requires innovative interoperable infrastructures to accelerate the extraction, analysis, dissemination and intelligent use of data, indicators and models from national and international observing systems</p>
                 </div>
