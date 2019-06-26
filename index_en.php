@@ -20,16 +20,16 @@
                     <p class="text-center">Data & services poles</p>
                 </div>
                 <div class="chiffre text-center">
+                    <p class="big">20</p>
+                    <p class="text-center">Data centers</p>
+                </div>
+                <div class="chiffre text-center">
+                    <p class="big">30</p>
+                    <p class="text-center">Scientific Expertise Centres</p>
+                </div>
+                <div class="chiffre text-center">
                     <p class="big">150</p>
-                    <p class="text-center">People</p>
-                </div>
-                <div class="chiffre text-center">
-                    <p class="big">7 000 To</p>
-                    <p class="text-center">Available datas in 2017</p>
-                </div>
-                <div class="chiffre text-center">
-                    <p class="big">50 000 To</p>
-                    <p class="text-center">within 5 years</p>
+                    <p class="text-center">Scientists, engineers and technicians</p>
                 </div>
             </div>
         </div>
