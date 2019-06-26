@@ -20,16 +20,16 @@
                     <p class="text-center">Pôles de données et de services</p>
                 </div>
                 <div class="chiffre text-center">
-                    <p class="big">153,2</p>
-                    <p class="text-center">Équivalent temps plein travaillé</p>
+                    <p class="big">20</p>
+                    <p class="text-center">Centres de Données et de Services</p>
                 </div>
                 <div class="chiffre text-center">
-                    <p class="big">7 000 To</p>
-                    <p class="text-center">de données stockées en 2017</p>
+                    <p class="big">30</p>
+                    <p class="text-center">Centres d'Expertises Scientifiques</p>
                 </div>
                 <div class="chiffre text-center">
-                    <p class="big">50 000 To</p>
-                    <p class="text-center">d'ici à 5 ans</p>
+                    <p class="big">150</p>
+                    <p class="text-center">Scientifiques, ingénieurs et techniciens</p>
                 </div>
             </div>
         </div>
