@@ -1,6 +1,6 @@
 /**
 * DATA-TERRA
-* version : 0.4.1
+* version : 0.4.2
 * Author: Centre de données et de services SEDOO/OMP : Raphael Vallauri - Pierre Vert 
 * Author URI: http://www.sedoo.fr
 */
@@ -9,18 +9,18 @@
     --data-terra: #1e1f4f;
     --data-terra-rgb: rgb(30,31,79);
     --data-terra-rgba: rgba(30,31,79,.8);
-    --aeris: #4bb6e8;
-    --aeris-rgb:rgb(75,182,232);
-    --aeris-rgba:rgba(75,182,232,.8);
-    --odatis: #07629C;
-    --odatis-rgb:rgb(7,98,156);
-    --odatis-rgba:rgba(7,98,156,.8);
-    --theia: #ef4a12;
-    --theia-rgb:rgb(239,74,18);
-    --theia-rgba:rgba(239,74,18,.8);
-    --formater: #fec100;
-    --formater-rgb:rgb(254,193,0);
-    --formater-rgba:rgba(254,193,0,.8);
+    --aeris: #4cb6e8;
+    --aeris-rgb:rgb(76,182,232);
+    --aeris-rgba:rgba(76,182,232,.8);
+    --odatis: #08639c;
+    --odatis-rgb:rgb(8,99,156);
+    --odatis-rgba:rgba(8,99,156,.8);
+    --theia: #f1780d;
+    --theia-rgb:rgb(241,120,13);
+    --theia-rgba:rgba(241,120,13,.8);
+    --formater: #b93713;
+    --formater-rgb:rgb(185,55,19);
+    --formater-rgba:rgba(185,55,19,.8);
 }
 
 html, body, div, span, applet, object, iframe,
