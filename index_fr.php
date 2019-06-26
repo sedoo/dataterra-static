@@ -4,7 +4,7 @@
                 <div>
                     <img src="asset/img/logo-dt.png" alt="logo Data Terra">
                 </div>
-                <div>
+                <div class="text">
                     <h1>Infrastructure de <span class="h2">recherche</span></h1>
                     <p>Observer, comprendre et prévoir de manière intégrée l’histoire, le fonctionnement et l’évolution du système Terre soumis aux changements globaux est un enjeu fondamental de recherche et une nécessité pour de nombreuses applications environnementales et socio-économiques en lien avec la mise en œuvre des objectifs du développement durable. Cela nécessite des infrastructures interopérables permettant d’accélérer l’extraction, l’analyse, la diffusion et l’usage intelligent des données, indicateurs et modèles issus des systèmes nationaux et internationaux d’observation.</p>
                 </div>
